@@ -1,0 +1,96 @@
+/* استيراد خط عصري */
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* --- تهيئة الصفحة --- */
+body {
+    background-image:url(open-book-with-fairytale-scene.jpg) ;
+    color: #333;
+}
+
+/* --- الشريط العلوي --- */
+
+header {
+position: fixed;           /* 🔥 يخليه ثابت */
+top: 0;
+left: 0;
+width: 100%;
+background-color: #4CAF50;
+color: white;
+padding: 15px 30px;
+text-align: center;
+font-size: 24px;
+font-weight: bold;
+box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+z-index: 1000;             /* يتقدم على باقي العناصر */
+}
+      
+
+
+
+
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.profile-card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #4CAF50;
+}
+
+.profile-card h1 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.profile-card h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    color: #313030;
+  }
+.profile-card p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #4CAF50;
+  font-weight: bold;
+}
+
+@media (max-width: 480px) {
+  .profile-card {
+    width: 90%;
+    padding: 20px;
+  }
+}
